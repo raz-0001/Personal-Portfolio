@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.top{
+    background-color:#B9F3E4;
+    height: 20vh;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    padding-top: 12vh;
+}
+.about{
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo{
+    height: 20vh;
+    display: inline;
+}
+
+.text1 p{
+    font-size: large;
+    font-family: cursive;
+}
+
+ul{
+    display: inline;
+    height: 10vh;
+}
+
+li{
+    display: inline;
+    position: relative;
+    bottom: 50%;
+    padding-left: 10vw;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    background-color: #FFAACF;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F6E6C2;
+}
+
+.education,.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F6E6C2;
+    font-size: 20px;
+}
+
+.skills{
+    height: 20vh;
+    overflow: auto;
+}
+.sk{
+    padding-left: 5vw;
+}
+.row {
+    display: flex;
+    background-color: #F6E6C2;
+    overflow: auto;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+  td{
+    padding-left: 4vw;
+  }
+
+  .of{
+    height: 40vh;
+  }
